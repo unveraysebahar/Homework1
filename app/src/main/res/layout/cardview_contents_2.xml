@@ -79,5 +79,5 @@
         android:fontFamily="sans-serif-light"
         android:gravity="right|center_vertical"
         android:text="10/25/2020"
-        android:textSize="16sp" />
+        android:textSize="@dimen/created_date_text_size" />
 </LinearLayout>

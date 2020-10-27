@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:background="@color/backgroud_3"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="@dimen/card_padding">
 
     <ImageView
         android:id="@+id/imageView1"
@@ -68,5 +68,4 @@
             android:textColor="@color/black"
             android:textStyle="bold" />
     </LinearLayout>
-
 </LinearLayout>

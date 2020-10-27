@@ -3,9 +3,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import android.app.Activity;
-
-public class splash extends Activity {
+public class Splash extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +17,7 @@ public class splash extends Activity {
                 }catch(InterruptedException e){
                     e.printStackTrace();
                 }finally{
-                    Intent intent = new Intent(splash.this, MainActivity.class);
+                    Intent intent = new Intent(Splash.this, MainActivity.class);
                     startActivity(intent);
                 }
             }

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework1"
         android:largeHeap="true" >
-        <activity android:name=".splash">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

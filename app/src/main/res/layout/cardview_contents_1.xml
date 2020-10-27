@@ -80,5 +80,5 @@
         android:fontFamily="sans-serif-light"
         android:gravity="right|center_vertical"
         android:text="@string/created_date"
-        android:textSize="16sp" />
+        android:textSize="@dimen/created_date_text_size" />
 </LinearLayout>

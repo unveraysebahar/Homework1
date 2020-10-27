@@ -16,7 +16,7 @@
             android:layout_margin="@dimen/card_margin"
             android:onClick="cardViewClick1"
             app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="2dp">
+            app:cardElevation="@dimen/card_elevation">
 
             <include layout="@layout/cardview_1" />
         </androidx.cardview.widget.CardView>
@@ -28,7 +28,7 @@
             android:layout_margin="@dimen/card_margin"
             android:onClick="cardViewClick2"
             app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="2dp">
+            app:cardElevation="@dimen/card_elevation">
 
             <include layout="@layout/cardview_2" />
         </androidx.cardview.widget.CardView>
@@ -40,7 +40,7 @@
             android:layout_margin="@dimen/card_margin"
             android:onClick="cardViewClick3"
             app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="2dp">
+            app:cardElevation="@dimen/card_elevation">
 
             <include layout="@layout/cardview_3" />
         </androidx.cardview.widget.CardView>
@@ -52,7 +52,7 @@
             android:layout_margin="@dimen/card_margin"
             android:onClick="cardViewClick4"
             app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="2dp">
+            app:cardElevation="@dimen/card_elevation">
 
             <include layout="@layout/cardview_4" />
         </androidx.cardview.widget.CardView>
@@ -64,7 +64,7 @@
             android:layout_margin="@dimen/card_margin"
             android:onClick="cardViewClick5"
             app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="2dp">
+            app:cardElevation="@dimen/card_elevation">
 
             <include layout="@layout/cardview_5" />
         </androidx.cardview.widget.CardView>

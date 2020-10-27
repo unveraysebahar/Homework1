@@ -13,7 +13,6 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="1dp"
-        android:contentDescription="TODO"
         android:src="@drawable/img_splash" />
 
     <TextView
@@ -37,9 +36,8 @@
         android:fontFamily="@font/sweet_night_personal_use"
         android:gravity="center"
         android:padding="8dp"
-        android:text="Explore Great Campsites."
+        android:text="@string/splash_tagline"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold" />
-
 </RelativeLayout>
